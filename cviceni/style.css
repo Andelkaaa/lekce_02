@@ -35,16 +35,17 @@ background-size: cover;
 h1 {
     font-size: 3rem;
     text-align: center;
-    text-shadow: currentColor;
 }
 
 main {
     padding: 1rem;
+    padding-bottom: 0;
 }
 
 main > img {
     max-width: 100%;
     height: auto;
+    padding-bottom: 1rem;
 }
 
 section {
@@ -63,6 +64,10 @@ section > img {
 
 h3 {
     clear: both;
+}
+
+.sec3 {
+border-bottom: 0;
 }
  
 
