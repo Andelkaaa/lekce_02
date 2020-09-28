@@ -58,16 +58,34 @@ section {
 section > img {
     width: 170px;
     height: auto;
-    float: left;
-    margin-right: 1rem;
 }
 
 h3 {
     clear: both;
 }
 
-.sec3 {
+.sec1 > img {
+    float: left;
+    margin-right: 1rem;
+}
+
+.sec3 > img {
+    float: left;
+    margin-right: 1rem;
+}
+
+.sec2 > img {
+    float: right;
+    margin-left: 1rem;
+}
+
+.sec4 {
 border-bottom: 0;
+}
+
+.sec4 > img {
+    float: right;
+    margin-left: 1rem;
 }
  
 
