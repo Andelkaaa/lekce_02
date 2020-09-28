@@ -8,8 +8,61 @@ html {
     box-sizing: inherit;
 }
 
-/*
-    background image: https://picsum.photos/1200/300
-    primary color: hsla(160, 50%, 50%, 1);
+body {
+    font-family: sans-serif;
+    margin: 0;
+    width: 1200px;
+    max-width: 50rem;
+    margin: 0 auto 0 auto;
+}
 
-*/
+nav ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+nav li {
+display: inline;
+}
+
+header {
+min-height: 300px;
+padding: 2rem 3rem;
+background-image: url(https://picsum.photos/1200/300);
+background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: currentColor;
+}
+
+main {
+    padding: 1rem;
+}
+
+main > img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    background-color: hsla(160, 50%, 50%, 0.6);
+    padding: 1rem;
+    border-bottom: 1px dotted hsla(160, 50%,10%,1);
+    display: flow-root;
+}
+
+section > img {
+    width: 170px;
+    height: auto;
+    float: left;
+    margin-right: 1rem;
+}
+
+h3 {
+    clear: both;
+}
+ 
+
